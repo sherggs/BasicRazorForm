@@ -1,0 +1,22 @@
+@page
+@model Practice.Pages.Form
+@{
+    
+}
+
+
+
+<div>
+    <form class="FormCenter" method="POST" action="" >
+        <label for="Name" placeholder="Enter your name"> Enter your name</label>
+        <input type="name" id="name" name="name" required class="input-group input-group-lg" /> <br />
+        <label for="age" id="age"> Enter your age</label>
+        <input type="number" name="age"  class="input-group input-group-lg"/> <br />
+        <input type="submit" value="Submit" class="btn btn-outline-primary"  />
+       
+    </form>
+
+     <p class="display-5 TopMargin "> @ViewData["Greeting"]</p>
+</div>
+
+
